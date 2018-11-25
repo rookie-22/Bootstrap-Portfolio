@@ -1,0 +1,162 @@
+/* allows us to include the padding and border in an element's total width and height */
+* {
+    box-sizing: border-box;
+}
+
+/* includes the information from the style guide for the assignment */
+body {
+    background: url("../images/country-quilt.png") repeat;
+    overflow: auto;
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+/* includes the information from the style guide for the assignment */
+h1,
+h2,
+h3 {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-weight: bold;
+    color: #4aaaa5;
+}
+
+/* specific to the h1 element in the header re: Steve Tucker */
+nav h1 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    display: inline-block;
+    padding: 10px;
+    background: #4aaaa5;
+    color: white;
+    margin: 0 0 0 240px;
+}
+
+/* navigation element formats */
+nav {
+    font-size: 18px;
+    padding: 5px 15px;
+    border-right: 3px solid #dddddd;
+    text-decoration: none;
+    text-align: center;
+}
+
+nav a {
+    font-size: 18px;
+    padding: 5px 15px;
+    border-right: 3px solid #dddddd;
+    text-decoration: none;
+}
+
+nav ul li:last-child a {
+    border-right: none;
+    padding-right: none;
+    margin-right: 230px;
+}
+
+#light {
+    padding: 0%
+}
+
+/* box for content area */
+#box {
+    background: white;
+    padding: 25px;
+    border: 3px solid #dddddd;
+    width: 960px;
+    margin-bottom: 40px;
+}
+
+/* format the h2 content in the box */
+#pagehead h2 {
+    padding: 20px 0px 20px 0px;
+    font-size: 28px;
+    border-bottom: 3px solid #dddddd;
+    margin-bottom: 20px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-weight: bold;
+    color: #4aaaa5;
+}
+
+/* portfolio css section */
+
+.portfolio-item {
+    height: 200px;
+}
+
+/* formatting for the portfolio items in h4 */
+.card-body h4 {
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: absolute;
+    bottom: 15px;
+    width: 380px;
+}
+
+/* assigns the specific image to each item */
+#item1 {
+    background: url("../images/image1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#item2 {
+    background: url("../images/image2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#item3 {
+    background: url("../images/image3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#item4 {
+    background: url("../images/image4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#item5 {
+    background: url("../images/image5.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* format css for contact me form */
+
+form input {
+    margin: 5px 0px 20px 0px;
+    border: 3px solid #dddddd;
+    padding: 5px;
+}
+
+#submit {
+    background-color: #4aaaa5;
+    color: white;
+    font-size: 30px;
+    border: none;
+}
+
+/* format for the footer including the position fixed for bottom of page alignment */
+footer {
+    text-align: center;
+    color: white;
+    clear: both;
+    height: 40px;
+    background-color: #666666;
+    padding: 15px 0px;
+    border-top: 5px solid #4aaaa5;
+    margin-top: 20px;
+    bottom: 0%;
+    position: fixed;
+    width: 100%;
+}
+
+/* footer formatting for h3 elements */
+footer h3 {
+    color: white;
+    font-weight: normal;
+    font-size: 12px;
+}
